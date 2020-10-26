@@ -1,0 +1,21 @@
+site_name: Data Infrastructure
+nav:
+  - Home: 'index.md'
+  - Terraform:
+    - IaC: terraform/intro.md
+    - Deployment: 
+      - Deploy: terraform/deploy.md
+      - Terraform Files: terraform/deploy_files.md
+
+theme:
+  name: "material"
+
+plugins:
+  - search
+  - mkdocstrings
+
+markdown_extensions:
+  - pymdownx.snippets
+  - pymdownx.keys
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
